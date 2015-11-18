@@ -1,0 +1,42 @@
+RPi Web Management
+- Apache PHP/MySQL basiert
+- Anmelden mit Linux User
+- Als installierbares package (wie pma oder repository?)
+- Als fertiges Raspbian Image (deault ohne pers. Daten)
+
+= Status/Dashboard =
+-Systeminfos
+--Datum, Zeit
+--Laufzeit des Systems
+--CPU Takt (aktuell/max), übertakten?
+--Arbeitsspeicherauslastung (Balkendiagramm)
+--Speicherbelegung (Tortendiagramm)
+--Netzwerkübersicht (Interface/IP/Hostname)
+
+= Benutzer/Gruppen =
+-Auflistung der Linux User und Gruppen
+-Erstellen, bearbeiten und löschen von Usern und Gruppen
+
+= Dienstverwaltung =
+-Tabelle Laufende Diesnte
+-Autostart Dienste (Hinzufügen/Bearbeiten/Löschen)
+
+= Speicherverwaltung =
+-Übersicht Partitionen
+-Belegte Dateiübersicht (Nach Dateitypen)
+-Dateibrowser (Up und Download von Daten, Ordnern etc.)
+
+= Netzwerkverwaltung =
+-Übersicht der Interfaces (LAN/WLAN) - IP Adresse und infos
+-DNS/Hostname Einstellungen
+
+= GPiO =
+-Übersicht der GPiO Pins
+-Konfiguration der Pins
+
+= Einstellungen =
+-Sprache der Oberfläche
+-Dashboard anpassen
+-Auf Updates prüfen
+-System neu starten
+-System herunterfahren
